@@ -1,0 +1,579 @@
+/*header,footer样式在main.css中显示*/
+ul,li{
+	list-style: none;
+}
+/*service-banner start*/
+#service-banner {
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/service-banner_large.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: table;
+}
+#service-banner div{
+	width: 100%;
+    height: 100%;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+#service-banner div h2{
+color: #fff;
+    font-size: 50px;
+    font-weight: 300;
+    display: inline;
+}
+/*service-banner stop*/
+
+/*service-nav start*/
+#service-nav{
+	background: #FFFFFF;
+}
+nav.service-subnav{
+	width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 0 80px;
+}
+.service-subnav ul.ser-navlist{
+	width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+#service-nav ul li a{
+	display: inline-block;
+	text-decoration: none;
+}
+#service-nav ul li a span{
+	background-image: url(../img/service-icons.png);
+	background-repeat: no-repeat;
+	width: 60px;
+	height: 60px;
+	display: block;
+	margin: 0 auto 24px;
+}
+#service-nav ul li a h4{
+	font-size: 16px;
+    display: inline-block;
+    font-weight: 400;
+    color: #333;
+ }   
+.ser-navlist1{
+	background-position:0 -290px ;
+}
+.ser-navlist2{
+	background-position:0 -51px ;
+}
+.ser-navlist3{
+	background-position:0 -172px ;
+}
+.ser-navlist4{
+	background-position:0 -518px ;
+}
+ul.ser-slide li{
+	padding: 0 10px;
+}
+.ser-slide-jdb i {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: url(../img/service-bj-red.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ser-slide-ys i {/*//放大效果没实现？？？？？？？？*/
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: url(../img/service-bj-ys.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ul.ser-slide li div{
+	position: relative;
+}
+ul.ser-slide li div a {
+    width: 100%;
+    height: 260px;
+    position: relative;
+}
+ul.ser-slide li div a hgroup {
+    position: absolute;
+    /*top: 18%;
+    left: 42%;*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+div.ser-slide-jdb a hgroup h3{
+	width: 80px;
+	height: 82px;
+	background-image:url(../img/service-icons.png);
+	background-position: 0 -412px;
+	background-repeat: no-repeat;
+}
+div.ser-slide-ys a hgroup h3{
+	width: 80px;
+	height: 82px;
+	background-image:url(../img/service-icons.png);
+	background-position: 0 -1118px;
+	background-repeat: no-repeat;
+}
+ul.ser-slide li div a hgroup h4{
+	color: #FFFFFF;/*mark*/
+}
+/*小屏幕下的轮播 start*/
+.mini-ser-slide ol.carousel-indicators{
+	margin-bottom: -40px;
+}
+.mini-ser-slide .carousel-indicators .active {
+    width: 13px;
+    height: 13px;
+    margin: 0;
+    background-color: #ccc;
+}
+.mini-ser-slide .carousel-indicators li {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    margin: 1px;
+    border: 1px solid #ccc;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000 \9;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 20px;
+}
+
+.mini-ser-slide .carousel-inner .i-service-jdb{
+	width: 100%;
+	height: 260px;
+	background-image: url(../img/service-bj-red.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+			}
+
+.mini-ser-slide .carousel-inner .i-service-ys{
+	width: 100%;
+	height: 260px;
+	background-image: url(../img/service-bj-ys.jpg);
+	background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mini-ser-slide .carousel-inner .item div{
+	
+}	
+
+.mini-ser-slide .carousel-inner .item div a{
+	width: 100%;
+    height: 260px;
+    display: block;
+    position: relative;
+    border: 1px solid #ccc;
+}
+.mini-ser-slide .carousel-inner .item div hgroup{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+    transform: translate(-50%,-50%);
+}	
+.mini-ser-slide .carousel-control {
+	opacity: 1;
+}
+/*小屏幕下的轮播  end*/
+
+/*service-nav stop*/
+
+/*service-after-sale start*/
+#service-after-sale{
+	margin-bottom: 60px;
+	background-image: url(../img/service-after-sale.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.ser-sale-inner{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding-top: 60px;
+}
+.ser-sale-inner h2:before{
+	content: " ";
+    position: absolute;
+    width: 40px;
+    height: 0;
+    left: 48%;
+    bottom: 0;
+    border-bottom: 1px solid #000;
+}
+.ser-sale-inner h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.ser-sale-inner h3 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+.search-order{
+	text-align: center;
+	margin-bottom: 45px;
+}
+.search-order button{
+	width: 150px;
+    height: 45px;
+    background: 0;
+    border: 1px solid #000;
+    border-radius: 1px;
+    text-align: center;
+}
+.ser-sale-con .official{
+	border-right: 1px solid #dfdfdf;
+}
+.official,.non-official{
+	/*height: 330px;*/
+    background: #fff;
+    padding: 40px 0 0 0;
+    text-align: center;
+}
+.ser-sale-con h4{
+	font-size: 18px;
+    margin-bottom: 35px;
+    text-align: center;
+ }   
+.ser-sale-con p {
+    font-size: 14px;
+    width: 85%;
+    height: 90px;
+    margin: 0 auto;
+    color: #999;
+    line-height: 24px;
+}
+.ser-sale-con img{
+	width: 56px;
+    display: block;
+    margin: 0 auto 25px;
+}
+ .ser-sale-con a:before{  /*用纯CSS画三角形*/
+    content: "";
+    height: 0;
+    width: 0;
+    margin-right: 10px;
+    display: inline-block;
+    border-width: 5px 0 5px 6px;
+    border-color: transparent transparent transparent #09c;
+    border-style: solid;
+}
+.ser-sale-con a{
+	text-decoration: none;
+    position: relative;
+    color: #09c;
+}
+/*<!--小屏幕下售后服务的轮播 start-->*/
+.mini-sale-con-slide ol.carousel-indicators{
+	margin-bottom: -40px;
+}
+.mini-sale-con-slide .carousel-indicators .active {
+    width: 13px;
+    height: 13px;
+    margin: 0;
+    background-color: #ccc;
+}
+.mini-sale-con-slide .carousel-indicators li {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    margin: 1px;
+    border: 1px solid #ccc;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000 \9;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 20px;
+}
+
+.mini-sale-con-slide .carousel-inner {
+    position: relative;
+    width: 90%;
+    overflow: hidden;
+    background: 0;
+    margin: 0 auto;
+}
+.mini-sale-con-slide h4{
+	font-size: 18px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.mini-sale-con-slide p{
+	font-size: 14px;
+    width: 85%;
+    height: 90px;
+    margin: 0 auto;
+    color: #999;
+    line-height: 24px;
+}
+.mini-sale-con-slide img{
+	width: 56px;
+    display: block;
+    margin: 0 auto 25px;
+}
+.mini-sale-con-slide a.check-link:before{
+	content: "";
+    height: 0;
+    width: 0;
+    margin-right: 10px;
+    display: inline-block;
+    border-width: 5px 0 5px 6px;
+    border-color: transparent transparent transparent #09c;
+    border-style: solid;
+}
+.mini-sale-con-slide a.check-link{
+	text-decoration: none;
+    position: relative;
+    color: #09c;
+}
+.carousel-control{
+    /*opacity: .2;*/
+}
+.carousel-control:hover{
+    /*color: #fff;
+    text-decoration: none;*/
+    /*filter: alpha(opacity=90);*/
+    /*outline: 0;*/
+    /*opacity: .2;*/
+}
+.mini-sale-con-slide .carousel-control .glyphicon-chevron-left{
+    left: 22%;
+}
+.mini-sale-con-slide .carousel-control .glyphicon-chevron-right {
+    right: 22%;
+}
+
+/*<!--小屏幕下售后服务的轮播 end-->*/
+
+/*service-after-sale stop*/
+/*common-question start*/
+#common-question{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding-bottom: 60px;
+	/*background: #E1E1E1;*/
+}
+.comm-ques-header{
+	margin-bottom: 40px;
+	height: 90px;
+	border-bottom: 1px solid #dfdfdf;
+}
+.comm-ques-header h2 {
+    font-size: 24px;
+    color: #222;
+    font-weight: 400;
+    line-height: 90px;
+    margin-left: 3%;
+    float: left;
+    margin-top: 0;
+}
+.comm-ques-header form {
+    float: right;
+    margin-right: 3%;
+    margin-top: 20px;
+    background: #efefef;
+}
+.comm-ques-header .input-text {
+    height: 50px;
+    width: 350px;
+    border: none;
+    background: #efefef;
+    float: left;
+    text-indent: 12px;
+    line-height: 48px;
+}
+.comm-ques-header .input-btn{
+	width: 50px;
+    height: 50px;
+    border: none;
+    float: left;
+    background: url(../img/comm-ques-search.png) center no-repeat;
+}
+#common-question ul{
+	width: 100%;
+    margin-bottom: 30px;
+    padding: 0;
+}   
+#common-question ul li{
+    line-height: 50px;
+    padding: 0 36px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+#common-question ul li a:before{
+	content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 3px;
+    display: block;
+    border-color: transparent transparent transparent #666;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    z-index: 2;
+	
+}
+#common-question ul li a:after{
+	content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: -2px;
+    top: 3px;
+    display: block;
+    border-color: transparent transparent transparent #fff;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    z-index: 2;
+	
+}
+#common-question ul li a {
+    color: #666;
+    position: relative;
+    padding-left: 10px;
+}
+#common-question>a:before{
+	content: "";
+    height: 0;
+    width: 0;
+    margin-right: 10px;
+    display: inline-block;
+    border-width: 5px 0 5px 6px;
+    border-color: transparent transparent transparent #09c;
+    border-style: solid;
+}
+#common-question>a {
+    margin: 0 12px;
+    padding-left: 14px;
+    line-height: 16px;
+    position: relative;
+    color: #09c;
+}
+/*common-question stop*/
+
+/*service-share start*/
+#service-share {
+    height: 310px;
+    background: url(../img/contact-us-bg.jpg) center no-repeat;
+    background-size: cover;
+    padding-top: 110px;
+    box-sizing: content-box;
+}
+@media (max-width: 767px) {
+		#service-share {
+		    height: auto;
+		    background: url(../img/contact-usbg-small.jpg) center no-repeat;
+		    background-size: cover;
+		    padding-top: 110px;
+		    box-sizing: content-box;
+		}
+		#service-share {
+		    height: auto;
+		    padding: 60px 0 30px;
+		    background: url(../img/contact-usbg-small.jpg) center no-repeat;
+		    background-size: cover;
+		    box-sizing: content-box;
+		}
+		#service-share h2 {
+		    margin-bottom: 50px;
+		}
+		.contact-us li {
+		    margin-bottom: 60px;
+		}
+}
+#service-share h2:before{
+	content: " ";
+    position: absolute;
+    width: 40px;
+    height: 1px;
+    left: 48%;
+    bottom: 0;
+    display: block;
+    border-bottom: 1px solid #fff;
+}
+#service-share h2 {
+    margin-bottom: 30px;
+    font-size: 24px;
+    height: 60px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+#service-share .contact-us {
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto;
+}
+.contact-us ul {
+    padding-left: 0;
+    width: 100%;
+    text-align: center;
+}
+.contact-us li{
+	/*display: inline-block;*/
+}
+.contact-us li a{
+	display: inline-block;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+.contact-us a span {
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin: 0 auto 28px;
+    background-image: url(../img/service-icons.png);
+    background-repeat: no-repeat;
+}
+span.weixin{
+	background-position: 0 -998px;
+}
+span.qq{
+	background-position: 0 -638px;
+}
+span.weibo{
+	background-position: 0 -758px;
+}
+span.ser-phone{
+	background-position: 0 -878px;
+}
+.contact-us ul li:hover span.weixin{
+	background-position: 0 -1058px;
+}
+.contact-us ul li:hover span.qq{
+	background-position: 0 -698px;
+}
+.contact-us ul li:hover span.weibo{
+	background-position: 0 -818px;
+}
+.contact-us ul li:hover span.ser-phone{
+	background-position: 0 -938px;
+}
+/*service-share stop*/
