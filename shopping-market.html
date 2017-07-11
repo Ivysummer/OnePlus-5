@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商城</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="css/main.css"/> <!--//自己定义的-->
+		<link rel="stylesheet" type="text/css" href="css/shopping-market.css"/>
+		<script src="js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="op-wrap">
+			<div id="op-content">
+				<div class="header container">
+					<div class="row" style="margin: 0;">
+						<h1 class="logo pull-left"><a href="index.html">logo</a></h1>
+						
+						<button class="close-search close" style="display: none;">&times;</button>
+						<ul class="icons nav pull-right">
+							<div class="glyphicon glyphicon-search hidden-xs"><!--顶部搜索栏-->
+								<!--<button class="close-search close" style="display: none;">&times;</button>-->
+							</div>
+							<div class="glyphicon glyphicon-shopping-cart"><!--购物车-->
+								<div class="non-goods">
+									<p>您的购物车里没有商品！</p>
+								</div>
+							</div>
+							<div class="glyphicon glyphicon-user"></div><!--注册-->
+							<div class="glyphicon glyphicon-align-center visible-xs-inline-block visible-sm-inline-block"></div><!--汉堡菜单-->
+						</ul>
+						
+						<div class="clearfix visible-xs"></div>
+						<nav class="menu nav">
+								<li><a href="#">OnePlus 5</a></li>
+								<li><a href="shopping-market.html">商城</a></li>
+								<li><a href="service.html">服务</a></li>
+								<li><a href="#">博客</a></li>
+								<li><a href="#">论坛</a></li>
+								<div class="i-show-menu">
+									<i class="arrow"></i>
+								</div>
+								<div class="mini-input-box visible-xs-block"><!--小屏幕搜索框-->
+									    <input class="mini-search-input" type="text" name="keyword" placeholder="搜索您的商品名称" autocomplete="off" />
+										<input class="mini-search" type="submit" name="" value=" "  />
+								</div>
+								<form action="" class="on-top-search" style="width: 640px; display: none;">
+									<div class="input-box">
+										<input class="glyphicon glyphicon-search" type="submit" name="" value=" "  />
+										<input class="search-input" type="text" name="keyword" placeholder="搜索您的商品名称" autocomplete="off" />
+									</div>
+									<div class="search-result">
+										<li><a href="#">OnePlus 5</a></li>
+										<li><a href="#">一加DASH闪电</a></li>
+										<li><a href="#">OnePlus 5个性保护壳</a></li>
+										<li><a href="#">电子发票</a></li>
+										<li><a href="#">纳税人识别号</a></li>
+									</div>
+								</form>
+						</nav>
+					</div>
+				</div>
+				<section class="store-subnav">
+					<div class="subnav-container show-animation">
+						<ul class="clearfix">
+							<li>
+								<a href="">
+									<i class="i-phone"></i>
+									<span>手机</span>
+								</a>
+							</li>
+							
+							<li>
+								<a href="">
+									<i class="i-audio"></i>
+									<span>耳机/音箱</span>
+								</a>
+							</li>
+							
+							<li>
+								<a href="">
+									<i class="i-cases"></i>
+									<span>壳/后盖/膜</span>
+								</a>
+							</li>
+							
+							<li>
+								<a href="">
+									<i class="i-data-wire"></i>
+									<span>适配器/数据线</span>
+								</a>
+							</li>
+							
+							<li>
+								<a href="">
+									<i class="i-bundles"></i>
+									<span>套装</span>
+								</a>
+							</li>
+							
+							<li>
+								<a href="">
+									<i class="i-lifestyle"></i>
+									<span>生活馆</span>
+								</a>
+							</li>
+							
+						</ul>
+					</div>
+					<div class="mini-subnav">
+						<!--小菜单栏-->
+						<ul>
+							<li>
+								<a href="">
+									<i class="i-phone"></i>
+									<span>手机</span>
+								</a>
+							</li>
+							
+							<li>
+								<a href="">
+									<i class="i-audio"></i>
+									<span>耳机/音箱</span>
+								</a>
+							</li>
+							
+							<li>
+								<a href="">
+									<i class="i-cases"></i>
+									<span>壳/后盖/膜</span>
+								</a>
+							</li>
+							
+							<li>
+								<a href="">
+									<i class="i-data-wire"></i>
+									<span>适配器/数据线</span>
+								</a>
+							</li>
+							
+							<li>
+								<a href="">
+									<i class="i-bundles"></i>
+									<span>套装</span>
+								</a>
+							</li>
+							
+							<li>
+								<a href="">
+									<i class="i-lifestyle"></i>
+									<span>生活馆</span>
+								</a>
+							</li>
+							
+						</ul>
+						<div class="mini-subnav-ml" style="display: none;">分类</div>
+						<a href="javascript:;"><span class="arrow-down"></span></a>
+					</div>
+				</section>
+				<section class="top-banner">
+					<div class="sc-img-box">
+						<a href="" class="img-large hidden-xs"></a>
+						<a href="" class="img-small hidden-lg hidden-md hidden-sm"></a>
+					</div>
+				</section>
+				<section class="hero-goods-con">
+					<div class="goods-wrap">
+						<ul class="clearfix">
+							<li class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><a href=""><img src="img/ChargerBundle0620-large.jpg"/></a></li>
+							<li class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><a href=""><img src="img/Bundle0620-large.jpg"/></a></li>
+							<li class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><a href=""><img src="img/Backpack0620-large.jpg"/></a></li>
+						</ul>
+					</div>
+				</section>
+				<section class="goods-con">
+					<div class="goods-wrap">
+						<!--OnePlus 5 热销配件-->
+						<div class="goods-title">
+							<h2>OnePlus 5 热销配件</h2>
+						</div>
+						<div class="goods-list">
+							<ul class="clearfix">
+								<li>
+									<a href="">
+										<img src="img/sc-goods-list1.png"/>
+										<h3>OnePlus 5 个性保护壳</h3>
+										<p><span>¥ 99</span></p>
+									</a>
+								</li>
+								
+								<li>
+									<a href="">
+										<img src="img/sc-goods-list2.png"/>
+										<h3>一加银耳 2</h3>
+										<p><span>¥ 119</span></p>
+									</a>
+								</li>
+								
+								<li>
+									<a href="">
+										<img src="img/sc-goods-list3.png"/>
+										<h3>一加车载闪充</h3>
+										<p><span>¥ 199</span></p>
+									</a>
+								</li>
+								
+								<li>
+									<a href="">
+										<img src="img/sc-goods-list4.png"/>
+										<h3>OnePlus 5 芳纶纤维全包保护壳</h3>
+										<p><span>¥ 199</span></p>
+									</a>
+								</li>
+								
+							</ul>
+						</div>
+						<!--一加生活周边-->
+						<div class="goods-title">
+							<h2>一加生活周边</h2>
+						</div>
+						<div class="goods-list">
+							<ul class="clearfix">
+								<li>
+									<a href="">
+										<img src="img/sc-goods-list5.png"/>
+										<h3>一加旅行双肩包</h3>
+										<p><span>¥ 399</span></p>
+									</a>
+								</li>
+								
+								<li>
+									<a href="">
+										<img src="img/sc-goods-list6.png"/>
+										<h3>出行套装 </h3>
+										<p><span>¥ 259.00</span><span  class="old-price">¥ 298.00</span>
+										</p>
+									</a>
+								</li>
+								
+								<li>
+									<a href="">
+										<img src="img/sc-goods-list7.png"/>
+										<h3>一加真皮钱包</h3>
+										<p><span>¥ 249.00</span></p>
+									</a>
+								</li>
+								
+								<li>
+									<a href="">
+										<img src="img/sc-goods-list8.png"/>
+										<h3>一加旅行袋</h3>
+										<p><span>¥ 299.00</span></p>
+									</a>
+								</li>
+								
+							</ul>
+						</div>
+						
+					</div>
+				</section>
+				<div class="clearfix"></div>
+				<div id="service">
+					<div class="service-wrap">
+						<ul class="row">
+							<li class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+								<a href="">
+									<i class="i-1h-send"></i>
+									  <span class="">1小时售后派单响应</span>
+								</a>
+							</li>
+							
+							<li class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+								<a href="">
+									<i class="i-7d-return"></i>
+									 <span class="">7天无理由退货</span>
+								</a>
+							</li>
+							
+							<li class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+								<a href="">
+									<i class="i-15d-return"></i>
+									  <span class="">15天退货保障</span>
+								</a>
+							</li>
+							
+							<li class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+								<a href="">
+									<i class="i-30d-swap"></i>
+									  <span class="">30天换货保障</span>
+								</a>
+							</li>
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		    <div id="op-footer" class="clearfix">
+				<div class="footer-wrap">
+					<div class="footer-inner">
+						<div class="footer-item">
+						<p>一加产品<span class="arrow"></span></p>
+						<ul>
+							<li><a href="#">OnePlus 5</a></li>
+							<li><a href="#">一加手机 3T</a></li>
+							<li><a href="#">一加手机 3</a></li>
+						</ul>
+					</div>
+					
+						<div class="footer-item">
+						<p>关于一加<span class="arrow"></span></p>
+						<ul>
+							<li><a href="#">了解一加</a></li>
+							<li><a href="#">加入一加 3T</a></li>
+							<li><a href="#">H2OS</a></li>
+						</ul>
+					</div>
+					
+						<div class="footer-item">
+						<p>服务支持<span class="arrow"></span></p>
+						<ul>
+							<li><a href="#">自助服务</a></li>
+							<li><a href="#">技术支持 </a></li>
+							<li><a href="#">售后服务</a></li>
+							<li><a href="#">一加加多保</a></li>
+						</ul>
+					</div>
+					    
+						<div class="footer-kf">
+					    	<div class="kf-inner">
+					    		<span class="kf-phone">客服电话：</span>
+					    		<a href="">400-888-1111</a>
+					    	</div>
+					    	<a href="" class="btn kf-online">在线客服</a>
+					    </div>
+					</div>
+				</div>
+				<div class="footer-bottom clearfix">
+					<div class="inner  clearfix">
+						<div class="footer-location">
+							Change location<a><span></span></a>
+						</div>
+						
+						<div class="footer-legal clearfix">
+							<span class="legal-con">© 2013-2017  OnePlus. All Rights Reserved.(
+								<br class="visible-xs" />
+								<a href="">粤ICP备13088308号-1</a>)
+							</span>
+							<span class="icon-kx"><a href=""><img src="img/kx-net.png" style="width: 83px;height: 30px;"/></a></span>
+							<span class="legal-smrz"><a href=""><img src='img/smrz.png' style="width: 83px;height: 30px;"/></a></span>
+							<span class="anbei"><a href=""><img src='img/record.png'/>粤公网安备 44030402000178号</a></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+<!-------首页-------->
+		<!--nav-menu -->
+		<script type="text/javascript">
+			$(function () {
+				$("ul.icons .glyphicon-align-center").click(function () {
+					$(".header nav").slideToggle(800);
+				})
+			})
+		</script>
+		
+		<!--小屏幕搜索栏的下拉收起-->
+		<script type="text/javascript">
+			$(function () {
+				$(".mini-search-input").focus(function () {
+					$("nav.menu li").slideUp();
+				});
+				$(".i-show-menu i.arrow").click(function () {
+					$("nav.menu li").slideDown();
+//					.i-show-menu i.arrowOpen
+//                  $(this).find(".i-show-menu i").toggleClass("arrowOpen");//mark小图标的切换未实现
+				})
+			})
+		</script>
+		
+		<!--购物车-->
+		<!--<script type="text/javascript">
+			$(function () {
+				$("ul.icons .glyphicon-shopping-cart,.non-goods").hover(function () {
+					$(".non-goods").show();
+				},function () {//注意两函数的并列关系（逗号的位置）
+					$(".non-goods").hide();
+				})
+			})
+		</script>-->
+		<!--头部搜索栏-->
+		<script type="text/javascript">
+//			<!--mark-->   点击事件无效(已解决)
+			$(function () {
+				$("ul.icons .glyphicon-search").click(function () {
+//					$("form.on-top-search").css("display","block");//注意此处用show()无效，因为行内用了display:none(优先级最高)
+                    $("form.on-top-search").slideDown();
+				    $(".header ul.icons").css("display","none");
+				    
+				    $("button.close-search").css("display","block");
+//				    $("ul.icons .glyphicon-search .close-search").css("background","red");
+//				    alert("1111");
+				});
+				
+				$("button.close-search").click(function () {
+					$("form.on-top-search").slideUp();
+					$(".header ul.icons").css("display","inline-block");
+				    $("button.close-search").css("display","none");
+				})
+				
+			})
+		</script>
+		
+		<!--尾部下拉-->
+		<script type="text/javascript">
+			 $(function () {
+	        	$(".footer-item>p").click(function() {//三个p都选中
+				$(this).parent().find('ul').slideToggle();
+//              $(this).parent().find('ul').slideDown();
+//              $(this).siblings().find("ul").slideUp();//收起
+				$(this).find("span").toggleClass("arrowOpen");//小图标的切换
+				});
+	        })
+		</script>
+	
+<!-------商城-------->	
+        <!--小屏幕的下拉分类-->
+        <script type="text/javascript">
+        	$(function () {    //点击事件无效
+        		$(".mini-subnav span.arrow-down").click(function () {
+//      			console.log(1);
+//      			$(".subnav-container").css("display","block");
+        			$(".subnav-container").slideToggle();
+//      			$(".subnav-container").css("overflow-y","hidden");
+        			$(".mini-subnav ul").css("display","none");
+        			$(".mini-subnav-ml").css("display","block");
+        			$(".mini-subnav").find("span").toggleClass("arrow-up");
+        		});
+        		
+//      		$(".mini-subnav span.arrow-down").click(function () {
+//      			console.log(1);
+//      			$(".subnav-container").slideToggle();
+//      			$(".mini-subnav ul").css("display","block");
+//      			$(".mini-subnav-ml").css("display","none");
+//      			$(".mini-subnav").find("span").toggleClass("arrow-down");
+//      		})
+        	})
+        </script>
+	
+	</body>
+</html>
